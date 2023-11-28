@@ -1,0 +1,88 @@
+.blackpati{
+    background: black;
+    color: white;
+    font-size: .95em;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 80%;
+    margin: auto;
+   
+}
+.blackpati img{
+    vertical-align: middle;
+}
+.blackpati .flex > div{
+    flex-grow: 1;
+    margin-left: 100px;
+}
+.flex li{
+    flex-grow: 1;
+    line-height: 70px;
+}
+.flex li:first-child{
+    flex-grow: 8;
+}
+.text-section{
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    top: 25rem;
+    color: white;
+    left: 6rem;
+}
+nav{
+    margin-top: 30px;
+}
+.main-img{
+    position: relative;
+}
+.text-section h1{
+    font-size: 60px;
+}
+.text-section p{
+    line-height: 30px;
+    margin-top: 20px;
+}
+.first-two-box{
+    width: 200px;
+    height: 200px;
+    background-color: #00AF90;
+}
+.sec-main-section{
+    width: 80%;
+    margin: auto;
+}
+.choose{
+    width: 50%;
+}
+.box-sec{
+    width: 50%;
+    /* margin: auto; */
+}
+.sec-main-section{
+    display: flex;
+    justify-content: space-between;
+}
+.first-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.last-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec-section{
+    width: 50%;
+    margin: auto;
+}
